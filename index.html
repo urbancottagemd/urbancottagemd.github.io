@@ -1,0 +1,16 @@
+---
+layout: main
+title: Urban Cottage Maryland
+---
+<section id="two">
+    <h2>Home</h2>
+    <div class="row">
+        {% for item in site.data.homeimgs %}
+        <article class="col-6 col-12-xsmall work-item">
+            <a href="{{ item.image }}" class="image fit thumb"><img src="{{ item.image }}" alt="" />{{ item.title }}</a>
+            <h3><a href="{{ post.url }}">{{ item.title }}</a></h3>
+            <p>{{ item.description }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>

@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~vagrant/.bashrc
 
     # installation
-    gem install jekyll bundler
+    gem install bundler -v 2.3.12
 
 #     echo "Initializing bundler"
 #     sudo -u vagrant bundler init

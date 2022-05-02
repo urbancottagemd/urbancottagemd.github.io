@@ -72,6 +72,13 @@ input, select, textarea {
     appearance: none;
 }
 
+/* Classes */
+
+.cursive {
+    font-family: 'Tangerine', cursive;
+    text-transform: lowercase;
+}
+
 /* Basic */
 
     @-ms-viewport {
@@ -2817,7 +2824,7 @@ input, select, textarea {
         }
 
         .wrapper.style1 {
-            background-color: #21b2a6;
+            background-color: #99957D;
             color: #c8ece9;
         }
 
@@ -2980,7 +2987,7 @@ input, select, textarea {
         }
 
         .wrapper.style3 {
-            background-color: #505393;
+            background-color: #7D9995;
             color: #d3d4e4;
         }
 
@@ -3351,7 +3358,7 @@ input, select, textarea {
         -ms-transition: -ms-transform 0.5s ease;
         transition: transform 0.5s ease;
         -webkit-overflow-scrolling: touch;
-        background: #21b2a6;
+        background: #99957D;
         color: #ffffff;
         height: 100%;
         max-width: 80%;
@@ -3389,7 +3396,7 @@ input, select, textarea {
                     letter-spacing: 0.225em;
                     outline: 0;
                     text-decoration: none;
-                    text-transform: uppercase;
+                    text-transform: lowercase;
                 }
 
                     @media screen and (max-width: 736px) {
@@ -3509,7 +3516,7 @@ input, select, textarea {
                         font-size: 0.8em;
                         letter-spacing: 0.225em;
                         padding: 0 1.5em;
-                        text-transform: uppercase;
+                        text-transform: lowercase;
                     }
 
                         #header nav > ul > li > a.menuToggle {
@@ -3814,10 +3821,10 @@ input, select, textarea {
 
     #main > header {
         padding: 12em 0 10em 0 ;
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -3964,10 +3971,10 @@ input, select, textarea {
 /* Landing */
 
     body.landing #page-wrapper {
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -3985,10 +3992,10 @@ input, select, textarea {
 
     body.is-mobile.landing #banner,
     body.is-mobile.landing .wrapper.style4 {
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/uc1.webp");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;

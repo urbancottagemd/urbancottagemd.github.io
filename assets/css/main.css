@@ -2825,7 +2825,7 @@ input, select, textarea {
         }
 
         .wrapper.style1 {
-            background-color: #99957D;
+            background-color: #c88b73;
             color: #c8ece9;
         }
 
@@ -3359,7 +3359,7 @@ input, select, textarea {
         -ms-transition: -ms-transform 0.5s ease;
         transition: transform 0.5s ease;
         -webkit-overflow-scrolling: touch;
-        background: #99957D;
+        background: #c88b73;
         color: #ffffff;
         height: 100%;
         max-width: 80%;

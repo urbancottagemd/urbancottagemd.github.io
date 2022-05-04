@@ -80,6 +80,11 @@ input, select, textarea {
     text-transform: lowercase;
 }
 
+.cursive-strong {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.0em
+}
+
 /* Basic */
 
     @-ms-viewport {

@@ -1,16 +1,181 @@
----
-layout: main
-title: Urban Cottage Maryland
----
-<section id="two">
-    <h2>Home</h2>
-    <div class="row">
-        {% for item in site.data.homeimgs %}
-        <article class="col-6 col-12-xsmall work-item">
-            <a href="{{ item.image }}" class="image fit thumb"><img src="{{ item.image }}" alt="" />{{ item.title }}</a>
-            <h3><a href="{{ post.url }}">{{ item.title }}</a></h3>
-            <p>{{ item.description }}</p>
-        </article>
-        {% endfor %}
-    </div>
-</section>
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Urban Cottage Maryland</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="landing is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <h1 class="cursive"><a href="/">Urban Cottage Maryland</a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="special">
+                    <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="inner">
+            <h2 class="cursive">Urban Cottage Maryland</h2>
+            <p>Welcome<br/></p>
+            <ul class="actions special">
+                <li><a href="https://www.airbnb.com/rooms/13925828" class="button primary fit" target="_blank" rel="noreferrer noopener">Book</a></li>
+            </ul>
+        </div>
+        <a href="#one" class="more scrolly">Learn More</a>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style1 special">
+        <div class="inner">
+            <header class="major">
+                <h2>A <font class="cursive">cottage</font> filled with <br/>
+                    love, laughter, and tranquility</h2>
+                <p>A short walk to attractions but hidden within <br/>
+                    a <font class="cursive"><strong>beautiful</strong></font> garden and <font class="cursive"><strong>lush</strong></font> wilderness.</p>
+            </header>
+            <ul class="icons major">
+                <li><span class="icon fa-heart major style1"><span class="label">Love</span></span></li>
+                <li><span class="icon solid fa-headphones-alt major style2"><span class="label">Laughter</span></span></li>
+                <li><span class="icon solid fa-bed major style3"><span class="label">Tranquility</span></span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+            <div class="image"><img src="images/uc_front_winter.webp" alt=""/></div>
+            <div class="content">
+                <h2>A humble getaway for each <br/>
+                    changing season</h2>
+                <p>Equipped with a <font class="cursive"><strong>wood burning stove</strong></font> for winter nights
+                    and an <font class="cursive"><strong>ice-cold</strong></font> ductless unit for the hot summer days.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/uc_living_room.webp" alt=""/></div>
+            <div class="content">
+                <h2>An inviting and open<br/>
+                    layout for small gatherings</h2>
+                <p>The <font class="cursive"><strong>warmth and character</strong></font> between the walls serve up to
+                    <font class="cursive"><strong>four guests</strong></font> for the weekend, the week, or extended stay and holidays.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/uc_deck.webp" alt=""/></div>
+            <div class="content">
+                <h2>Peaceful and complete privacy<br/>
+                    on the rear deck</h2>
+                <p>Start and end the day on the rear deck surrounded by the <font class="cursive"><strong>garden</strong></font>
+                    and trees while you read, relax, or enjoy the <font class="cursive"><strong>outdoor shower</strong></font>.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/uc_loft.webp" alt=""/></div>
+            <div class="content">
+                <h2>The cozy loft is <br/>
+                    a short ladder climb</h2>
+                <p>Resy easy on the  upper <font class="cursive"><strong>queen loft</strong></font> or
+                    the bottom <font class="cursive"><strong>double sleeper sofa</strong></font> and get ready for the next day.</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="wrapper style3 special">
+        <div class="inner">
+            <header class="major">
+                <h2>Additional Services and Activities</h2>
+                <p>Urban Cottage Maryland is owned and managed by <font class="cursive">Masha</font>.<br/>
+                    She offers additional services and activities for guests at her property or at their own venues.</p>
+            </header>
+            <ul class="features">
+                <li class="icon solid fa-gifts">
+                    <h3>Private Group Gatherings</h3>
+                </li>
+                <li class="icon solid fa-spa">
+                    <h3>Private Outdoor Sauna</h3>
+                </li>
+                <li class="icon solid fa-leaf">
+                    <h3>Organic Garden Harvest</h3>
+                </li>
+                <li class="icon solid fa-holly-berry">
+                    <h3>Floral Arrangement Classes</h3>
+                </li>
+                <li class="icon solid fa-camera-retro">
+                    <h3>Photo Sessions</h3>
+                </li>
+                <li class="icon solid fa-moon">
+                    <h3>Sound Healing and Meditation</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>Reserve your stay</h2>
+                <p>All bookings and reviews are on <font class="cursive"><strong>AirBnB</strong></font>.
+                    Follow the <a href="https://www.instagram.com/urbancottagemd/" target="_blank" rel="noreferrer noopener">@urbancottagemd</a>
+                    adventures on <font class="cursive"><strong>Instagram</strong></font>.</p>
+            </header>
+            <ul class="actions stacked">
+                <li><a href="https://www.airbnb.com/rooms/13925828" class="button primary fit" target="_blank" rel="noreferrer noopener">Book</a></li>
+                <li><a href="about.html" class="button fit">About</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://www.airbnb.com/rooms/13925828" class="fab fa-airbnb" target="_blank" rel="noreferrer noopener"></a></li>
+            <li><a href="https://www.instagram.com/urbancottagemd/" class="icon brands fa-instagram" target="_blank" rel="noreferrer noopener"><span class="label">Instagram</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; <font class="cursive">Urban Cottage Maryland</font></li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

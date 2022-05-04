@@ -2495,7 +2495,7 @@ input, select, textarea {
         input[type="button"].primary,
         button.primary,
         .button.primary {
-            background-color: #FFC300;
+            background-color: #cc9c00;
             box-shadow: none !important;
             color: #ffffff !important;
         }

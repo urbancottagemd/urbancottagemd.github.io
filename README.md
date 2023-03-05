@@ -2,10 +2,11 @@
 
 > Public website for https://urbancottagemd.github.io
 
-* Version: 1.0
+* Version: dev/1.0
+    - Development for Release 1.0
+  
+* Version: beta/1.0
     - Initial prototype for review
-
-* Version: 1.1 (TBD)
 
 # Acknowledgements
 

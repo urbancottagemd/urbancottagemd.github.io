@@ -1,6 +1,6 @@
 # Urban Cottage Maryland
 
-> Public website for https://urbancottagemd.github.io
+> Public website for http://wwww.urbancottagemd.com
 
 * Version: dev/1.0
     - Development for Release 1.0
@@ -10,4 +10,4 @@
 
 # Acknowledgements
 
-1. Template by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net)
+1. Template by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](https://html5up.net/)

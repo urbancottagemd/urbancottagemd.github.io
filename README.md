@@ -1,13 +1,7 @@
 # Urban Cottage Maryland
 
-> Public website for http://wwww.urbancottagemd.com
-
-* Version: dev/1.0
-    - Development for Release 1.0
-  
-* Version: beta/1.0
-    - Initial prototype for review
+> http://www.urbancottagemd.com
 
 # Acknowledgements
 
-1. Template by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](https://html5up.net/)
+1. Website template designed by [@ajlkn](https://github.com/ajlkn), [HTML5 UP](https://html5up.net/)
